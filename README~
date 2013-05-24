@@ -1,0 +1,65 @@
+*** Autor ***
+Nenad Palinkasevic
+
+*** Tema rada ***
+2D pucacina
+
+*** Naziv rada ***
+Shoot stuff
+
+*** Potrebne biblioteke ***
+
+Za komplajiranje su potrebne SDL i SDL_image SDL_ttf biblioteke
+koje se mogu instalirati sa apt sa sledecom naredbom:
+
+apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-ttf2.0-dev
+
+
+*** Komplajiranje igre ****
+
+Komplajiranje same igre je poprilicno jednostavno, prvenstveno raspakujemo igru, sve sto treba jeste uci u folder u kojem se igra nalazi i preko terminale ukucati naredbu "make" koja odradi komplajiranje. 
+Izvrsna datoteka se nalazi u bin/Release folderu, i pokrece naredbom 
+./ShootStuff
+
+
+***  Kontrole ***
+
+Kretanje igraca:
+
+levo - A ili leve strelice na tastaturi
+desno - D ili desne strelice na tastaturi
+skok - W ili strelice na gore ili spacebar
+pucanje - ENTER ili levog dugmeta na misu
+
+Unos imena:
+Max ime od 16 slova, sacinjeno samo od malih karaktera
+Pritiskom ENTER unosite vase konacno ime
+
+Meni:
+Navigacija sa misem
+
+***  Licensa  ***
+
+Kod se nalazi pod GPLv3 licensom.
+
+brainmonster.png je pod creative commons 3.0 licensom i preuzet sa: 
+"http://opengameart.org/content/brain-monster".
+
+Skyhorizon01.png je pod GPL 2.0 licensom i preuzet je sa:
+"http://opengameart.org/node/10605".
+
+grass.png je pod GPL 2.0 licensom i preuzet je sa:
+"http://opengameart.org/node/9701"
+
+matrix.png je pod GPL 3.0 licensom i preuzet je sa:
+"http://opengameart.org/node/9045"
+
+hero.png je pod CC-BY 3.0 i GPL 3.0 licensama i preuzet je sa:
+"http://opengameart.org/content/neon-armor-side-fight-sprite-standrunpunch"
+
+fireball.png je pod CC-BY 3.0 licnesom i preuzet je sa:
+"http://opengameart.org/content/iron-plague-sun1bmp"
+
+alien.ttf je slobodan za koriscenje u ne komercijalne svrhe [alien.txt].
+
+Svi ostali resursi su napravljeni od strane autora i slobodni su za koriscenje.
